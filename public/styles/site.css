@@ -1,5 +1,20 @@
-.miss-lulu .et_pb_text_0 {
-    top: 87%;
-    right: 20%;
-    left: auto;
+.miss-lulu .et_pb_blog_grid .et_pb_image_container img {
+    max-height: 205px;
+    object-fit: cover;
+}
+
+.miss-lulu .hero1 img {
+    object-fit: cover;
+    height: 1000px;
+}
+
+.miss-lulu .et_pb_text_0.hero-title {
+    right: -17%;
+}
+
+@media only screen and (min-width: 20em) and (max-width: 29.999em) {
+    .miss-lulu .hero1 img {
+        object-fit: cover;
+        height: 300px;
+    }
 }
